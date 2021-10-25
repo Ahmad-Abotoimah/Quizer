@@ -1,6 +1,6 @@
 
 # Quiz WebSite :
-[https://esraaamal.github.io/Quiz-project/landing/landing.html](https://esraaamal.github.io/Quiz-project/landing/landing.html)
+[https://esraaamal.github.io/Quiz-project/landing/landing.html](https://ahmad-abotoimah.github.io/Quizer/landing/landing.html)
 # MockUp:
 [https://drive.google.com/file/d/191d9fsIV038WvW-rPRLIPH2dNn_D5GhS/view](https://drive.google.com/file/d/191d9fsIV038WvW-rPRLIPH2dNn_D5GhS/view)
 
