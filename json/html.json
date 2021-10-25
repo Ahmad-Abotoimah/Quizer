@@ -1,0 +1,44 @@
+{
+    "html": [
+      {
+        "question": "Q1. What does HTML stand for?",
+        "a": "Hypertext Machine language",
+        "b": "Hypertext and links markup language",
+        "c": "Hypertext Markup Language",
+        "d": "Hightext Machine Language",
+        "correct": "c"
+      },
+      {
+        "question": "Q2. Which of the following attributes is used to add link to any element?",
+        "a": "link",
+        "b": "ref",
+        "c": "href",
+        "d": "newref",
+        "correct": "c"
+      },
+      {
+        "question": "Q3. What is the purpose of using div tags in HTML?",
+        "a": "For creating Different styles",
+        "b": "For creating different sections",
+        "c": "For adding headings",
+        "d": "For adding titles",
+        "correct": "b"
+      },
+      {
+        "question": "Q4. Which of the following attributes is used to open an hyperlink in new tab?",
+        "a": "tab",
+        "b": "href",
+        "c": "target",
+        "d": "ref",
+        "correct": "c"
+      },
+      {
+        "question": "Q5. which tag is used to add an header in HTML5 table?",
+        "a": "<theader>",
+        "b": "<h1>",
+        "c": "<th>",
+        "d": "<header>",
+        "correct": "c"
+      }
+    ]
+  }

@@ -1,0 +1,44 @@
+{
+    "javascript": [
+      {
+        "question": "Q1. Which of the following function of Array object adds and/or removes elements from an array?",
+        "a": "toSource()",
+        "b": "sort",
+        "c": "splice()",
+        "d": "unshift()",
+        "correct": "c"
+      },
+      {
+        "question": "Q2. Which built-in method returns the character at the specified index?",
+        "a": "characterAt()",
+        "b": "getCharAt()",
+        "c": "charAt()",
+        "d": "None of the above",
+        "correct": "c"
+      },
+      {
+        "question": "Q3. Which built-in method returns the calling string value converted to lower case?",
+        "a": "toLowerCase()",
+        "b": "toLower()",
+        "c": "changeCase(case)",
+        "d": "None of the above",
+        "correct": "a"
+      },
+      {
+        "question": "Q4. Which of the following function of Number object returns a string value version of the current number?",
+        "a": "toString()",
+        "b": "toFixed()",
+        "c": "toLocaleString()",
+        "d": "toPrecision()",
+        "correct": "a"
+      },
+      {
+        "question": "Q5. Which of the following function of String object is used to match a regular expression against a string?",
+        "a": "concat()",
+        "b": "match()",
+        "c": "search()",
+        "d": "replace()",
+        "correct": "b"
+      }
+    ]
+  }

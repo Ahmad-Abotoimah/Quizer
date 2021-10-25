@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <!-- //quiz information ///// -->
+    <div class="quiz-container">
+        <div class="quiz-header" id="quiz">
+            <h2 id="question">Question Text</h2>
+            <ul>
+                <li>
+                    <input class="answer" type="radio" id="a" name="answer">
+                    <label id="a-text" for="a">Question</label>
+                </li>
+                <li>
+                    <input class="answer" type="radio" id="b" name="answer">
+                    <label id="b-text" for="b">Question</label>
+                </li>
+                <li>
+                    <input class="answer" type="radio" id="c" name="answer">
+                    <label id="c-text" for="c">Question</label>
+                </li>
+                <li>
+                    <input class="answer" type="radio" id="d" name="answer">
+                    <label id="d-text" for="d">Question</label>
+                </li>
+
+
+            </ul>
+        </div>
+        <a id="resultPage" href="#"> <button id="submit" type="submit">Next</button></a>
+    </div>
+    <!-- //End quiz information ///// -->
+
+    <!-- // Start pop up result////// -->
+    <div onclick="reloadWindow(event)" class="backContainer">
+        <div class="quiz-container2">
+            <h2 class="correctAnswer1">
+                <p> <span style='font-size:50px;'>&#128512;</span> Good Job <mark>
+                        Esraa </mark> ! </p>
+                You answered correctly 5 out 5 questions.
+            </h2>
+            <div class="twoBtn">
+                <a id="resultPage2" href="result.html"> <button class="resultStyle" id="submit2"
+                        type="submit">Next</button></a>
+                <button id="reload" onclick="reloadPage(event)" class="resultStyle">Reload</button>
+            </div>
+        </div>
+    </div>
+    <!-- //End pop up result////// -->
+
+
+    <script src="js/quiz.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" referrerpolicy="no-referrer" />
+    <title>Landing Page With Light/Dark Mode</title>
+    <link rel="stylesheet" href="styleLanding.css" />
+    <link rel="stylesheet" href="../css/signin.css">
+
+ <style>
+   .person{
+    transform: rotate(-4deg);
+    margin-top: -14%;
+   }
+   .right{
+     animation-duration: 1s;
+   }
+ </style>
+  </head>
+  <body>
+
+    <main>
+        <!-- ///start sign Up PopUp///// -->
+        <div class="popUpSignUp1">
+          <div class="popupContent33">
+              
+                <span onclick="removePopup(event)" class="close1">x</span>
+            
+
+
+            <section id="signin_section">
+                <h2>Sign Up</h2>
+                <div class="gridIcon">
+                <div class="divIcon">
+                    <i class="icoonSign fas fa-user"></i>
+                    <i class="icoonSign fas fa-envelope"></i>
+                    <i class="icoonSign fas fa-key"></i>
+                </div>
+    
+                <form id="form" name="form" onsubmit="signUp(event)" role="form" action="../sign_in.html">
+                <div class="input_part1">
+                <p>Username <span class="starF">*</span></p>
+                <input type="text" name="" id="input_username" required>
+                      <div id="username_help" class="form-text"> <small> The Username should be between 4-15 characters.</small></div>
+                <p>Email <span class="starF">*</span></p>
+                <input type="email" name="" id="input_email" required>
+               
+                      <div id="email_help" class="form-text"><small> eg: username@domain.com</small></div>
+                <p>Password <span class="starF">*</span></p>
+                
+                <input type="password" name="" id="input_pass" required> <br>
+             
+                      <div id="pass_help" class="form-text"><small>The Password should be between 6-18 characters.</small></div>
+            </div>
+                <div class="input_part2">
+                    <input id="signup_btn" class="myButton" type="submit" value="Sign Up" id="signup_btn">
+                <p>Already have an account? <a class="reg" href="../sign_in.html">Sign In</a></p>
+            </div>
+        </form>
+    </div>
+            </section>
+          </div>
+    </div>
+
+<!-- //End Sign Up PopUp//////// -->
+      <div class="big-wrapper light">
+        <img src="./img/shape.png" alt="" class="shape" />
+
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="img/Capture.png" alt="Logo" />
+              <!-- <h3>Danvo in a new branch</h3> -->
+            </div>
+
+            <div class="links">
+              <ul>
+                
+                <li><a href="../sign_in.html"  class="btn">Sign In</a></li>
+                <li><a href="#" onclick="registerNow(event)" class="btn">Sign up</a></li>
+
+              </ul>
+            </div>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>FUll Stack Developer</h1>
+      
+              </div>
+              <p class="text">
+                A full-stack web developer or engineer is needed to handle the development work of the ideal 
+                candidate should?work with both the front and back ends of a website or application to tackle
+                 projects that involve databases, building user-facing websites, or even work with 
+                clients during the planning phase of projects.Full-stack web developer should be familiar with HTML, CSS, JavaScript
+              </p>
+              <div class="cta">
+                <a href="#" onclick="registerNow(event)" class="btn">Apply Now</a>
+              </div>
+            </div>
+
+            <div animate__animate animate__backInRight class="right">
+            
+              <img src="./img/kelwkf;f;ew.png" alt="Person Image" class="person" />
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript Files -->
+ <script>
+   ////popUp////
+const registerNow=e=>{
+    document.querySelector('.popUpSignUp1').style.display="flex";
+    e.preventDefault()
+
+}
+const removePopup=e=>{
+    document.querySelector('.popUpSignUp1').style.display="none";
+}
+
+///////////popUp////
+ </script>
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

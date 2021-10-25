@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="css/signin.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="rowHeader">
+            <div class="whiteLogo">
+                <a class="brand" href="index.html"><img src="images/CaptureWhite.png"></a>
+            </div>
+            <div class="navBox1">
+                <a href="index.html">Home</a>
+
+
+            </div>
+
+        </header>
+
+
+
+        <div class="popUpSignUp2">
+            <div class="popupContent">
+                <span onclick="removePopup2(event)" class="close1">x</span>
+        <section id="signin_section2">
+            <div id="already"></div>
+            <h2>Sign In</h2>
+        <form id="signin-form" role="form" onsubmit="signIn(event)" autocomplete="on" action="index.html">
+
+            <div class="input_part11">
+            <p>Email</p>
+            <input type="email" name="email" id="emailSignIn" required>
+            <p>Password</p>
+            <input type="password" name="password" id="passSignIn" required>
+            <div id="signinError"></div>
+        </div>
+            <div class="input_part2">
+            <input  type="submit" class="myButton22" value="Sign In">
+            <p>Don't have an account? <a class="reg" href="./landing/landing.html">Sign Up</a></p>
+        </div>
+
+
+
+        </form>
+        </section>
+       </div>
+       </div>
+
+       <footer class="rowHeader centerGenral">
+
+        @All right reserved
+    </footer>
+    </div>
+<script src="js/signIn.js"></script>
+   
+</body>
+
+</html>

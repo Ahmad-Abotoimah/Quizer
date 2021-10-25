@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz App</title>
+        
+    <style>
+    .welCUser{
+    font-size: 41px;
+    font-weight: 700;
+}
+    </style>
+</head>
+
+<body>
+   
+    <div class="grid-container">
+
+        <header class="rowHeader">
+            <div class="whiteLogo">
+                <a class="brand" href="index.html"><img src="images/CaptureWhite.png"></a>
+            </div>
+            <div class="navBar navBox1">
+                <a href="/">Home</a> 
+                <div> 
+                     
+                    
+                   
+                    <a href="./landing/landing.html">Log Out</a>
+                </div>
+
+            </div>
+
+
+        </header>
+        <main class="mainSection">
+           
+            <div class="welcomeQuiz">
+               
+                Welcome to Web Developer position <br>
+                Please Answer all the Quizzes to get the interview Job !
+            
+            </div>
+
+            <div class="rowHeader quizCard">
+
+                <!-- first card -->
+                <div class="card" style="width: 25rem;">
+                    <i class="fab fa-html5"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <small>Estimate Time : 5 minutes</small>
+                        <a href="#" id="hyperText" class="btn btn-primary quizBtn startQuiz">Start Quiz</a>
+
+                    </div>
+                </div>
+                <!-- ///second card  -->
+                <div class="card" style="width: 25rem;">
+                    <i class="fab fa-css3-alt"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <small>Estimate Time : 5 minutes</small>
+                        <a href="#" id="cssStyle" class="btn btn-primary quizBtn startQuiz">Start Quiz</a>
+                    </div>
+                </div>
+
+                <!-- ////thired card -->
+
+                <div class="card" style="width: 25rem;">
+                    <i class="fab fa-html5 js"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Javascript</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <small>Estimate Time : 5 minutes</small>
+                        <a href="#" id="javascr" class="btn btn-primary quizBtn startQuiz">Start Quiz</a>
+                    </div>
+                </div>
+
+                <!-- //////////////// -->
+
+
+
+
+            </div>
+
+           
+        </main>
+        <footer class="rowHeader centerGenral">
+
+            @All right reserved
+        </footer>
+    </div>
+ 
+
+
+
+
+    <script>
+        let startQuiz = document.querySelectorAll('.startQuiz')
+        startQuiz.forEach(x => {
+            x.addEventListener('click', function (e) {
+                
+                    console.log(x.id)
+                    localStorage.setItem('id', x.id)
+                    x.setAttribute('href', 'quiz.html')
+            })
+        })
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

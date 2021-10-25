@@ -1,0 +1,45 @@
+{  
+      "css": [
+      {
+        "question": "Q1. Which of the following selector matches a element based on its class attribute?",
+        "a": "The Type Selector",
+        "b": "The Universal Selector",
+        "c": "The Descendant Selector",
+        "d": "The Class Selector",
+        "correct": "d"
+      },
+      {
+        "question": "Q2. Which of the following defines a relative measurement for the height of a font in em spaces?",
+        "a": "%",
+        "b": "cm",
+        "c": "em",
+        "d": "ex",
+        "correct": "c"
+      },
+      {
+        "question": "Q3. Which of the following property specifies the top margin of an element?",
+        "a": "margin",
+        "b": "margin-bottom",
+        "c": "margin-top",
+        "d": "margin-up",
+        "correct": "c"
+      },
+      {
+        "question": "Q4. Which of the following property is used to control the position of an image in the background?",
+        "a": "background-color",
+        "b": "background-image",
+        "c": "background-repeat",
+        "d": "background-position",
+        "correct": "d"
+      },
+      {
+        "question": "Q5. Which of the following property is used to increase or decrease how bold or light a font appears?",
+        "a": "font-family",
+        "b": "font-style",
+        "c": "font-variant",
+        "d": "font-weight",
+        "correct": "d"
+      }
+    ]
+  }
+  
